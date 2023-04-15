@@ -1,0 +1,21 @@
+{
+  "name": "boggle-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.2.6",
+    "@angular/cli": "^15.2.6",
+    "@angular/common": "^15.2.7",
+    "@angular/core": "^15.2.7",
+    "@angular/platform-browser-dynamic": "^15.2.7",
+    "cypress": "^12.9.0"
+  }
+}
