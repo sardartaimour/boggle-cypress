@@ -6,7 +6,7 @@ describe('Signout Test cases', () => {
   it('should signout from main portal show login page', () => {
     cy.visit('http://localhost:4200/auth/login')
     .wait(1000)
-    cy.get('#username').type('taimour')
+    cy.get('#username').type('Mahamil')
     .wait(1000)
     .get('#password').type('123456')
     .wait(1000)
