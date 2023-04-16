@@ -6,7 +6,7 @@ describe('Login Test cases', () => {
   it('should give Invalid/ username/Password error', () => {
     cy.visit('http://localhost:4200/auth/login')
     .wait(1000)
-    cy.get('#username').type('taimour')
+    cy.get('#username').type('Mahamil')
     .wait(1000)
     .get('#password').type('password')
     .wait(1000)
@@ -18,7 +18,7 @@ describe('Login Test cases', () => {
   it('Login is successfull and navigate to main portal', () => {
     cy.visit('http://localhost:4200/auth/login')
     .wait(1000)
-    cy.get('#username').type('taimour')
+    cy.get('#username').type('Mahamil')
     .wait(1000)
     .get('#password').type('123456')
     .wait(1000)
